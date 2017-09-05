@@ -1,4 +1,4 @@
-{% set bind_iface = eth0 %}
+{% set bind_iface = "eth0" %}
 
 mine_functions:
   network.internal_ip:
